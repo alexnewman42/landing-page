@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background: #eee;
+    font-family: Besley, serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+li {
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.header {
+    background-color: #1F2937;
+    font-weight: 900;
+    font-style: italic;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}

@@ -36,3 +36,11 @@ a {
     font-size: 24px;
     color: #F9FAF8;
 }
+
+.left {
+    margin-left: 200px;
+}
+
+.right {
+    margin-right: 200px;
+}

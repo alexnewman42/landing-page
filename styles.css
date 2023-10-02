@@ -50,6 +50,25 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  padding: 0px 40px 0px 0px;
+}
+
+.info-title {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.info img {
+  border-radius: 15px;
 }
 
 button {

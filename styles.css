@@ -78,6 +78,28 @@ body {
   margin: 50px 0px;
 }
 
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  background-color: #E5E7EB;
+  padding: 150px 0px 100px 0px;
+}
+
+.quote {
+  max-width: 1008px;
+  align-self: center;
+}
+
+.author {
+  max-width: 1008px;
+}
+
+.author-text {
+  text-align: right;
+}
+
 button {
     cursor: pointer;
     padding: 10px 30px;

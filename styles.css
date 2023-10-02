@@ -14,7 +14,6 @@ body {
 
 .header {
   background: #1F2937;
-  border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
@@ -28,6 +27,39 @@ body {
   font-style: italic;
 }
 
+.hero {
+  background: #1F2937;
+  display: flex;
+  flex-direction: row;
+  padding: 100px 200px 100px 200px;
+}
+
+.title {
+  color: #F9FAF8;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.hero-info {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.left-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: #E5E7EB;
+    font-size: 18px;
+    background-color: #3882F6;
+}
 
 a {
   text-decoration: none;

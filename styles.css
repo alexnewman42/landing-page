@@ -107,6 +107,15 @@ section {
   padding-right: 60px;
 }
 
+.newsletter-container {
+  padding: 100px 200px;
+}
+
+.modal {
+  display: flexbox;
+  flex-direction: row;
+}
+
 button {
     cursor: pointer;
     padding: 10px 30px;

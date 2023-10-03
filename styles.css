@@ -78,26 +78,33 @@ body {
   margin: 50px 0px;
 }
 
-.quote-container {
+section {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: stretch;
-  background-color: #E5E7EB;
-  padding: 150px 0px 100px 0px;
+  align-items: center;
 }
 
 .quote {
-  max-width: 1008px;
-  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+  flex-direction: column;
+  padding: 100px 200px 100px 200px;
 }
 
-.author {
-  max-width: 1008px;
+.quote-text {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    letter-spacing: 0.04em;
 }
-
-.author-text {
-  text-align: right;
+.attr {
+  font: normal 700 1.5em/1.5em 'Montserrat', sans-serif;
+  letter-spacing: 0.07em;
+  align-self: flex-end;
+  padding-right: 60px;
 }
 
 button {

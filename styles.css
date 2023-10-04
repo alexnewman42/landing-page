@@ -99,21 +99,46 @@ section {
     font-weight: lighter;
     font-style: italic;
     letter-spacing: 0.04em;
+    max-width: 80%;
 }
 .attr {
   font: normal 700 1.5em/1.5em 'Montserrat', sans-serif;
-  letter-spacing: 0.07em;
   align-self: flex-end;
-  padding-right: 60px;
+  padding-right: 300px;
 }
 
 .newsletter-container {
   padding: 100px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .modal {
-  display: flexbox;
+  width: 80%;
+  height: 200px;
+  background-color: #3882F6;
+  border-radius: 30px;
+  display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #E5E7EB;
+}
+
+.modal-text {
+  max-width: 80%;
+}
+
+.modal button{
+  border-color: white;
+}
+
+.footer {
+  text-align: center;
+  background: #1F2937;
+  padding: 20px 0px;
+  color: white;
 }
 
 button {
